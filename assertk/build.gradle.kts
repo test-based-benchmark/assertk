@@ -4,6 +4,7 @@ import org.jetbrains.kotlin.gradle.plugin.KotlinPlatformType.common
 plugins {
     id("assertk.multiplatform")
     id("assertk.publish")
+    id("org.jetbrains.kotlinx.kover") version "0.8.3"
 }
 
 val compileTemplates by tasks.registering(TemplateTask::class) {
